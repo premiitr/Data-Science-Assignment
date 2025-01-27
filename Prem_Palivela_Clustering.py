@@ -20,7 +20,7 @@ def cluster_model(n,scaled_data):
 
     # Evaluate clustering
     db_index = davies_bouldin_score(scaled_data, customer_data['Cluster'])
-    print(f'Davies-Bouldin Index: {db_index}')
+    # print(f'Davies-Bouldin Index: {db_index}')
 
     # Visualize clusters
     colors = plt.cm.tab10(range(n))
